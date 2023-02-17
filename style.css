@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3c3a39;
+  width: 100%;
+  height: 7.5%;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  padding: 3.13% 0.03%;
+  position: absolute;
+  left: 3.2%;
+}
+
+.nav-bar {
+  position: absolute;
+  right: 6.4%;
+  height: 83.3%;
+}
+
+#nav-icon {
+  display: flex;
+  height: 100%;
+}
+
+.button {
+  width: 40px;
+  height: 100%;
+  border-style: none;
+  background-color: #3c3a39;
+}
+
+.button:hover {
+  background-color: #fff5e1;
+}
+
+#container {
+  display: flex;
+  background-image: url(./bacground-icons/background-image.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  flex-direction: column;
+  background-color: #1c1a19;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  display: flex;
+  height: 93.48%;
+  position: absolute;
+  top: 7.49%;
+  width: 100%;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  height: 59.3%;
+  padding-top: 20.33%;
+  padding-left: 6%;
+  padding-right: 6%;
+  gap: 2.03%;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#heading1 {
+  display: flex;
+  color: #ff6b00;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+#heading2 {
+  display: flex;
+  color: #fff5e1;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+#description {
+  display: flex;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#social {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.icons:hover {
+  background-color: #fff5e1;
+}
