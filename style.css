@@ -40,6 +40,8 @@
 .button {
   width: 40px;
   height: 100%;
+  border-style: none;
+  background-color: #3c3a39;
 }
 
 .button:hover {
