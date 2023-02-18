@@ -135,6 +135,7 @@
 
 .frame {
   width: 100%;
+  justify-content: center;
 }
 
 #heading {
@@ -227,10 +228,10 @@
 
 .cards {
   display: grid;
-  padding-left: 6.4%;
-  padding-right: 6.4%;
   padding-top: 3.76%;
-  padding-bottom: 120px;
+  margin-bottom: 120px;
+  justify-content: center;
+  width: 100%;
 }
 
 .card {
@@ -241,7 +242,9 @@
   background-repeat: no-repeat;
   background-size: 100%;
   margin-bottom: 3.76%;
-  width: 100%;
+  width: 87.24%;
+  margin-left: 6.4%;
+  margin-right: 6.4%;
 }
 
 .cardhead {
@@ -268,7 +271,6 @@
   margin-top: 12px;
   margin-left: 16px;
   margin-right: 16px;
-  text-align: center;
 }
 
 .card-list {
@@ -293,6 +295,7 @@
   line-height: 20px;
   border: 1px solid #8993a4;
   color: #fff;
+  background-color: #ffffff1e;
 }
 
 .project-button {
@@ -416,4 +419,16 @@
 .line {
   margin-left: 6.4%;
   margin-right: 6.4%;
+}
+
+#skills-head {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+#skillscontainer2 {
+  margin-left: 11.2%;
+  margin-right: 11.2%;
 }
