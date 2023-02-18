@@ -30,9 +30,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio-setup-and-mobilefirst] <a name="about-project"></a>
+# 📖 [Portfolio-setup-and-mobilefirst second milestone] <a name="about-project"></a>
 
-**[Portfolio-setup-and-mobilefirst]** is about ensuring all linters check pass, and creating toobar and headline for portifolio setup by selecting provided templates.
+**[Portfolio-setup-and-mobilefirst second milestone]** is about ensuring all linters check pass, and creating works and about section for portifolio setup by selecting provided templates.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,9 +60,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Implement the button interactions]**
+- **[Responsiveness]**
 - **[Follow HTML and CSS best practice]**
-- **[Styling With Flexbox]**
+- **[Styling With Flexbox and CSS Grid]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,9 +157,9 @@ GitHub Pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Menu]**
-- [ ] **[Projects]**
-- [ ] **[About Section]**
+- [ ] **[Desktop Styling]**
+- [ ] **[contact Form]**
+- [ ] **[Menu interation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
