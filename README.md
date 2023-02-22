@@ -158,7 +158,7 @@ GitHub Pages
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Desktop Styling]**
-- [ ] **[contact Form]**
+- [ ] **[Add transitions]**
 - [ ] **[Menu interation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
