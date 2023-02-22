@@ -440,37 +440,26 @@
 }
 
 .contact-grid {
-  height: 100%;
   display: grid;
-  grid-template-rows: 46.46% 53.64%;
+  grid-template-rows: 25.47vh 38.91vh;
+  row-gap: 6.83vh;
+  padding: 14.15vh 6.4% 14.622vh 6.4%;
+  height: 71.228vh;
+  width: 87.2%;
 }
 
 .contactpara {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
-  line-height: 96%;
-  width: 87.2%;
-  margin-left: 6.4%;
-  margin-right: 6.4%;
+  font-size: 32px;
+  line-height: 43px;
   color: #172b4d;
   text-align: center;
-  margin-top: 14.15vh;
-  height: 25.47vh;
-  margin-bottom: 6.839vh;
 }
 
 .contactp {
   height: 100%;
-}
-
-.form {
-  height: 38.915vh;
-  margin-bottom: 14.622vh;
-  width: 87.2%;
-  margin-left: 6.4%;
-  margin-right: 6.4%;
 }
 
 .form1 {
@@ -489,14 +478,14 @@
 
 .name1 {
   width: 90.21%;
-  height: 37.5%;
+  height: 97.8%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   border-style: none;
-  margin: auto;
+  padding-left: 7.3335%;
   color: #979493;
 }
 
@@ -515,7 +504,7 @@
 }
 
 .email1 {
-  height: 37.5%;
+  height: 97.8%;
   width: 90.21%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -523,7 +512,7 @@
   font-size: 15px;
   line-height: 24px;
   border-style: none;
-  margin: auto;
+  padding-left: 7.3335%;
   color: #979493;
 }
 
@@ -567,6 +556,14 @@
 .submit:hover {
   color: #f55800;
   background-color: #fff5e1;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  box-sizing: border-box;
+  border: #e05304;
+  border-style: solid;
 }
 
 .submit:active {
