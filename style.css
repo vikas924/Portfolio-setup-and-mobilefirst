@@ -629,8 +629,18 @@
 }
 
 @media only screen and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
   .nav-bar {
     display: none;
+  }
+
+  .header {
+    height: 8.27%;
+    background-color: #3e3c3c;
   }
 
   .desknav-bar {
@@ -672,8 +682,179 @@
     margin-left: 0.83%;
   }
 
+  .section {
+    height: 91.725%;
+  }
+
   #container {
-    background-image: url(./about-img/aboutbackgroud.png);
-    background-color: #dbd8d7;
+    background-image: url(./desktopimg/backgrounds/background1.png);
+    background-color: #1c1a19;
+  }
+
+  #box {
+    position: absolute;
+    padding-top: 0%;
+    width: 38.61%;
+    height: 92.6%;
+    padding-left: 9.93%;
+    padding-right: 50.76%;
+    justify-content: center;
+    padding-bottom: 7.39%;
+    gap: 3.007%;
+  }
+
+  #heading1 {
+    height: 21.65%;
+    width: 100%;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 82px;
+  }
+
+  #heading2 {
+    height: 3.27%;
+    width: 100%;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  #description {
+    height: 16.644%;
+    width: 100%;
+    font-size: 19px;
+    line-height: 32px;
+  }
+
+  #social {
+    flex-direction: column;
+    position: absolute;
+    left: 2.5%;
+    top: 30.34%;
+  }
+
+  .works {
+    height: 100vh;
+  }
+
+  .title {
+    display: flex;
+    height: 2.88vh;
+    width: 78.68%;
+    padding-top: 9.376%;
+    margin-left: 10.659%;
+    margin-right: 10.659%;
+    margin-bottom: 6.315vh;
+    align-items: center;
+    justify-content: center;
+    gap: 2.11%;
+  }
+
+  .empty {
+    width: 70.09%;
+    border: 1px solid #212121;
+  }
+
+  #heading {
+    height: 100%;
+    width: 27.53%;
+    margin: 0;
+    font-size: 39px;
+    text-align: center;
+  }
+
+  .work-grid {
+    width: 80.27%;
+    height: 76.227vh;
+    margin-left: 9.86%;
+    margin-right: 9.86%;
+    margin-bottom: 9.028%;
+  }
+
+  .desk-work {
+    display: flex;
+    width: 100%;
+    height: 24.75vh;
+  }
+
+  #yoga-img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  #yoga {
+    width: 59.169%;
+  }
+
+  .desk-yoga {
+    width: 40.831%;
+    height: 77.678%;
+    margin-left: 2.076%;
+  }
+
+  #heading3 {
+    margin: 0;
+    font-size: 40px;
+    line-height: 52px;
+    height: 13.793%;
+  }
+
+  .framepara {
+    height: 40.229%;
+    margin-top: 5.193%;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 21.2px;
+    line-height: 28px;
+    padding-bottom: 5.193%;
+  }
+
+  #tags {
+    height: 32.183%;
+    width: 66.294%;
+  }
+
+  #tagsul {
+    margin: 0;
+    width: 100%;
+    height: 35.714%;
+  }
+
+  .tags1 {
+    width: 100%;
+  }
+
+  #project-button {
+    margin: 7.834% 0 0 0;
+  }
+
+  .frame {
+    height: 65.725%;
+    padding-top: 2.077%;
+  }
+
+  .cards {
+    padding: 0;
+    grid-template-columns: 32.64fr 32.64fr 32.64fr;
+    grid-template-rows: 47.965% 47.965%;
+    row-gap: 4.07%;
+    column-gap: 2.07%;
+    height: 100%;
+    justify-content: normal;
+    margin: 0;
+    width: 100%;
+  }
+
+  .card {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about {
+    width: 100%;
+    height: 100vh;
   }
 }
