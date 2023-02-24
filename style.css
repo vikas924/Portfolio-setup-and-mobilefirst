@@ -288,6 +288,10 @@
   padding-right: 75px;
 }
 
+.cardhead1 {
+  display: none;
+}
+
 .tags {
   list-style: none;
   display: flex;
@@ -694,8 +698,8 @@
   #box {
     position: absolute;
     padding-top: 0%;
-    width: 38.61%;
-    height: 92.6%;
+    width: 566px;
+    height: 739px;
     padding-left: 9.93%;
     padding-right: 50.76%;
     justify-content: center;
@@ -705,11 +709,11 @@
 
   #heading1 {
     height: 21.65%;
-    width: 100%;
+    width: 80%;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 86px;
+    font-size: 72px;
     line-height: 82px;
   }
 
@@ -723,7 +727,7 @@
   #description {
     height: 16.644%;
     width: 100%;
-    font-size: 19px;
+    font-size: 19.6px;
     line-height: 32px;
   }
 
@@ -734,18 +738,13 @@
     top: 30.34%;
   }
 
-  .works {
-    height: 100vh;
-  }
-
   .title {
     display: flex;
-    height: 2.88vh;
     width: 78.68%;
-    padding-top: 9.376%;
+    padding-top: 135px;
     margin-left: 10.659%;
     margin-right: 10.659%;
-    margin-bottom: 6.315vh;
+    margin-bottom: 114px;
     align-items: center;
     justify-content: center;
     gap: 2.11%;
@@ -764,18 +763,23 @@
     text-align: center;
   }
 
+  .works {
+    min-height: 1810px;
+  }
+
   .work-grid {
     width: 80.27%;
-    height: 76.227vh;
     margin-left: 9.86%;
     margin-right: 9.86%;
-    margin-bottom: 9.028%;
+    margin-bottom: 7.202%;
+    height: 76.187vh;
+    min-height: 1379px;
   }
 
   .desk-work {
     display: flex;
     width: 100%;
-    height: 24.75vh;
+    height: 32.27%;
   }
 
   #yoga-img {
@@ -837,14 +841,14 @@
 
   .cards {
     padding: 0;
-    grid-template-columns: 32.64fr 32.64fr 32.64fr;
-    grid-template-rows: 47.965% 47.965%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     row-gap: 4.07%;
     column-gap: 2.07%;
     height: 100%;
     justify-content: normal;
-    margin: 0;
     width: 100%;
+    margin: 0;
   }
 
   .card {
@@ -853,8 +857,278 @@
     height: 100%;
   }
 
+  .cardhead {
+    display: none;
+  }
+
+  .card-list {
+    padding-bottom: 10px;
+  }
+
+  #procard {
+    display: flex;
+    justify-content: end;
+    background-image: url(./desktopimg/backgrounds/card1.png);
+  }
+
+  #procard1 {
+    background-image: url(./desktopimg/backgrounds/card2.png);
+    justify-content: flex-end;
+  }
+
+  #procard2 {
+    background-image: url(./desktopimg/backgrounds/card3.png);
+    justify-content: flex-end;
+  }
+
+  #procard3 {
+    background-image: url(./desktopimg/backgrounds/card4.png);
+    justify-content: flex-end;
+  }
+
+  #procard4 {
+    background-image: url(./desktopimg/backgrounds/card5.png);
+    justify-content: flex-end;
+  }
+
+  #procard5 {
+    background-image: url(./desktopimg/backgrounds/card6.png);
+    justify-content: flex-end;
+  }
+
+  #prohead {
+    display: none;
+  }
+
+  #propara {
+    display: none;
+  }
+
+  #pro-list {
+    display: none;
+  }
+
+  .project-button {
+    display: none;
+  }
+
+  #probutton {
+    display: block;
+  }
+
+  #prohead1 {
+    display: block;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    height: 81px;
+    padding-top: 84px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #prohead2 {
+    display: block;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    height: 81px;
+    padding-top: 84px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #prohead3 {
+    display: block;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    height: 81px;
+    padding-top: 84px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #prohead4 {
+    display: block;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    height: 81px;
+    padding-top: 84px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #prohead5 {
+    display: block;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    height: 81px;
+    padding-top: 84px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .about {
     width: 100%;
+    height: 100%;
+    min-height: 1379px;
+  }
+
+  .about1 {
+    height: 49.45%;
+    background-image: url(./desktopimg/backgrounds/background2.png);
+  }
+
+  .about2 {
+    margin-left: 9.86%;
+    width: 39.305%;
+    height: 97.4771%;
+  }
+
+  .abouthead {
+    padding-top: 22.336%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: start;
+    height: 13.402%;
+    width: 100%;
+  }
+
+  .aboutpara {
+    margin: 4.123% 0 0 0;
+    height: 25.42%;
+    width: 100%;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .aboutbutton {
+    margin: 4.123% 0 0 0;
+    height: 8.247%;
+    width: 28.44%;
+    justify-content: center;
+  }
+
+  .line {
+    margin-left: 9.86%;
+    margin-right: 9.86%;
+    width: 80.28%;
+    position: absolute;
+  }
+
+  .lineimg {
+    height: 1px;
+    width: 100%;
+  }
+
+  .aboutsocial {
+    height: 50.54vh;
+    margin: 0;
+    width: 100%;
+  }
+
+  .skills {
+    margin: 0 9.791% 0 9.791%;
+    width: 80.418%;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .skillscontainer {
+    margin: 10.87% 0 10.87% 0;
+    width: 24.39%;
+  }
+
+  #skillscontainer2 {
+    margin-right: 13.137%;
+    margin-left: 13.137%;
+  }
+
+  #skills-head {
+    text-align: start;
+    justify-content: flex-start;
+  }
+
+  #skills-head1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  #skills-head3 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .skills-head {
+    text-align: start;
+  }
+
+  .skills-items {
+    text-align: start;
+  }
+
+  .contact {
+    width: 100%;
     height: 100vh;
+  }
+
+  .contact-grid {
+    padding: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+
+  .contactpara {
+    width: 31.598%;
+    height: 41.898vh;
+    margin-top: 21.244vh;
+    margin-bottom: 35.623vh;
+    margin-left: 9.375%;
+    font-size: 43px;
+    line-height: 52px;
+    text-align: start;
+  }
+
+  .form {
+    width: 47.5%;
+    height: 54.009vh;
+    margin-top: 21.244vh;
+    margin-bottom: 25.197vh;
+    margin-left: 1.666%;
+    margin-right: 9.861%;
+  }
+
+  .submit {
+    margin: 0;
+  }
+
+  .footer {
+    height: 8.78%;
+    padding: 0;
+  }
+
+  .blank4 {
+    display: none;
   }
 }
