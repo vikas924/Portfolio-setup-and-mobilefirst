@@ -30,9 +30,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio-setup-and-mobilefirst third milestone] <a name="about-project"></a>
+# 📖 [Portfolio-setup-and-mobilefirst fourth milestone] <a name="about-project"></a>
 
-**[Portfolio-setup-and-mobilefirst third milestone]** is about ensuring all linters check pass, and creating contact form for portifolio setup by selecting provided templates.
+**[Portfolio-setup-and-mobilefirst fourth milestone]** is about ensuring all linters check pass, and creating desktop version for portifolio setup by selecting provided templates.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -157,7 +157,7 @@ GitHub Pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Desktop Styling]**
+- [ ] **[Add animations]**
 - [ ] **[Add transitions]**
 - [ ] **[Menu interation]**
 
