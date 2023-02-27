@@ -30,9 +30,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio-setup-and-mobilefirst fourth milestone] <a name="about-project"></a>
+# 📖 [Portfolio application deploy] <a name="about-project"></a>
 
-**[Portfolio-setup-and-mobilefirst fourth milestone]** is about ensuring all linters check pass, and creating desktop version for portifolio setup by selecting provided templates.
+**[Portfolio application deploy]** is about deploy portfolio website on github pages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
