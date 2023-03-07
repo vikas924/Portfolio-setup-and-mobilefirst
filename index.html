@@ -15,7 +15,7 @@
     <header class="header">
         <a id="logo" href="#">Vikas chib</a>
         <nav class="nav-bar">
-            <nav id="nav-icon"><button class="button"><img class="icon" src="nav-Icon.png" alt="menu"></button></nav>
+            <nav id="nav-icon"><button class="button" id="button1"><img class="icon" src="nav-Icon.png" alt="menu"></button></nav>
         </nav>
         <div class="desknav-bar">
         <nav class="desknav-bar1">
@@ -27,7 +27,15 @@
         </nav>
         <button id="nav-button"><img id=navimg src="./desktopimg/navicon.png" alt="mail"></button>
         </div>
-    </header>
+     </header>
+     <div class="mobile-menu">
+        <div class="close-menu"><button class="menu-button"><img src="./mobilebutton/close.png" alt="close-button" ></button></div>
+        <ul class="mobnav">
+            <li class="mobnav1" onclick="showhide()"><a class="moblink" href="#portfolio">Portfolio</a></li><hr>
+            <li class="mobnav1" onclick="showhide()"><a class="moblink" href="#about">About</a></li><hr>
+            <li class="mobnav1" id="mobnav" onclick="showhide()"><a class="moblink" href="#contact">contact</a></li><hr>
+          </ul>
+    </div>
    <section class="section">
         <div id="container">
         <div id="box">
@@ -44,7 +52,7 @@
                </ul>
             </div>
         </div>
-    <div class="works">
+    <div class="works" id="portfolio">
         <div class="title">
         <h2 id ="heading">My Recent Works</h2>
         <div class="empty"></div>
@@ -160,7 +168,7 @@
         </div>
     </div>
 </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="about1">
         <div class="about2">
         <h2 class="abouthead">About Me</h2>
@@ -205,7 +213,7 @@
         </div>
         </div>
          
-        <div class="contact">
+        <div class="contact" id="contact">
             <div class="contact-grid">
             <div class="contactpara">
                 <p class="contactp">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
@@ -247,4 +255,5 @@
 
     </div>
 </body>
+<script src="./index.js"></script>
 </html>
