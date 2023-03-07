@@ -30,15 +30,17 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio application deploy] <a name="about-project"></a>
+# 📖 [Portfolio Mobile Menu] <a name="about-project"></a>
 
-**[Portfolio application deploy]** is about deploy portfolio website on github pages.
+**[Portfolio Mobile Menu]** is about setting linters and add javascript for hamburger menu.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 -HTML
 
 -CSS
+
+-JS
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -60,9 +62,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Responsiveness]**
-- **[Follow HTML and CSS best practice]**
-- **[Styling With Flexbox and CSS Grid]**
+- **[Show/hide menu]**
+- **[Follow HTML,CSS and JS best practice]**
+- **[Click on options close menu]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +161,7 @@ GitHub Pages
 
 - [ ] **[Add animations]**
 - [ ] **[Add transitions]**
-- [ ] **[Menu interation]**
+- [ ] **[Add popup]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
