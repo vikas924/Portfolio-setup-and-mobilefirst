@@ -194,3 +194,42 @@ button3.addEventListener('click', click3);
 button4.addEventListener('click', click4);
 button5.addEventListener('click', click5);
 button6.addEventListener('click', click6);
+
+function tog() {
+  const togbutton = document.querySelector('#project-button');
+  const showpop = document.querySelector('#content');
+  if (togbutton.style.display !== 'none') {
+    showpop.style.display = 'block';
+    togbutton.style.display = 'none';
+    const list = document.querySelectorAll('.tags');
+    for (let i = 0; i < list.length; i++) {
+      list[i].classList.remove('tags');
+      list[i].classList.add('poptag');
+    }
+  } else if (togbutton.style.display === 'none') {
+    showpop.style.display = 'none';
+    togbutton.style.display = 'block';
+    const list1 = document.querySelectorAll('.poptag');
+    for (let i = 0; i < list1.length; i++) {
+      list1[i].classList.add('tags');
+      list1[i].classList.remove('poptag');
+    }
+  }
+}
+
+const showpopup = document.querySelector('#project-button');
+showpopup.addEventListener('click', tog);
+const showpopup1 = document.querySelector('#probutton');
+showpopup1.addEventListener('click', tog);
+const showpopup2 = document.querySelector('#probutton2');
+showpopup2.addEventListener('click', tog);
+const showpopup3 = document.querySelector('#probutton3');
+showpopup3.addEventListener('click', tog);
+const showpopup4 = document.querySelector('#probutton4');
+showpopup4.addEventListener('click', tog);
+const showpopup5 = document.querySelector('#probutton5');
+showpopup5.addEventListener('click', tog);
+const showpopup6 = document.querySelector('#probutton6');
+showpopup6.addEventListener('click', tog);
+const closepopup = document.querySelector('#closepopup');
+closepopup.addEventListener('click', tog);
