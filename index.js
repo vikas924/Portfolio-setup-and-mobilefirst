@@ -55,20 +55,143 @@ const image6 = document.createElement('div');
 image6.id = 'img6';
 image6.innerHTML = '<img class="yoga-im" src="./desktopimg/backgrounds/card6.png" alt="project1">';
 
+function works(html) {
+  const template = document.createElement('template');
+
+  template.innerHTML = html.trim();
+
+  return template.content;
+}
+
+const secti = works(`
+<div class="title">
+ <h2 id ="heading">My Recent Works</h2>
+ <div class="empty"></div>
+ </div>
+ <div class="work-grid">
+ <div class="desk-work">
+ <a id="yoga" href="#"><img  id="yoga-img" class="yoga-img" src="./Work-section-img/frame.png" alt="yoga"></a>
+ <div class="desk-yoga">
+ <h3 id="heading3" class="heading3">Multi-Post Stories</h3>
+ <p class="framepara">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+ <div id="tags">
+     <ul id="tagsul" class="tagsul">
+         <li class="tags1" id="tag1">css</li>
+         <li class="tags1" id="tag2">html</li>
+         <li class="tags1" id="tag3">bootstrap</li>
+         <li class="tags1" id="tag4">ruby</li>
+     </ul>
+     <button id="project-button">See Project</button>
+ </div>
+ </div>
+</div>
+ <div class="frame">
+ <div class="cards">
+     <div class="card" id="procard">
+      <div class="hov1">
+     <h2 class="cardhead" id="prohead">Profesional Art Printing Data</h2>
+     <p class="cardpara"  id="propara">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+     <ul class="card-list"  id="pro-list">
+         <li class="tags" id="protags">html</li>
+         <li class="tags" id="protags">bootstrap</li>
+         <li class="tags"id="protags">ruby</li>
+     </ul>
+      </div>
+      <div class="hov2">
+     <button class="project-button"  id="probutton">See Project</button>
+     </div>
+     </div>
+     <div class="card" id="procard1">
+         <div class="hov1">
+         <h2 class="cardhead">Profesional Art Printing Data</h2>
+         <h2 class="cardhead1" id="prohead1">Data Dashboard Healthcare</h2>
+         <p class="cardpara" id="propara1">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+         <ul class="card-list" id="card">
+             <li class="tags">html</li>
+             <li class="tags">bootstrap</li>
+             <li class="tags">ruby</li>
+         </ul>
+         </div>
+         <div class="hov2">
+         <button class="project-button" id="probutton2">See Project</button>
+         </div>
+         </div>
+         <div class="card" id="procard2">
+             <div class="hov1">
+             <h2 class="cardhead">Profesional Art Printing Data</h2>
+             <h2 class="cardhead1" id="prohead2">Website Protfolio</h2>
+             <p class="cardpara" id="propara2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+             <ul class="card-list" id="pro-list2">
+                 <li class="tags">html</li>
+                 <li class="tags">bootstrap</li>
+                 <li class="tags">ruby</li>
+             </ul>
+             </div>
+             <div class="hov2">
+             <button class="project-button" id="probutton3">See Project</button>
+             </div>
+             </div>
+             <div class="card" id="procard3">
+                 <div class="hov1">
+                 <h2 class="cardhead">Profesional Art Printing Data More</h2>
+                 <h2 class="cardhead1"  id="prohead3">Profesional Art Printing Data</h2>
+                 <p class="cardpara" id="propara3">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                 <ul class="card-list" id="pro-list3">
+                     <li class="tags">html</li>
+                     <li class="tags">bootstrap</li>
+                     <li class="tags">ruby</li>
+                 </ul>
+                 </div>
+                 <div class="hov2">
+                 <button class="project-button" id="probutton4">See Project</button>
+                 </div>
+                </div>
+                 <div class="card"  id="procard4">
+                     <div class="hov1">
+                     <h2 class="cardhead">Profesional Art Printing Data</h2>
+                     <h2 class="cardhead1" id="prohead4">Data Dashboard Healthcare</h2>
+                     <p class="cardpara" id="propara4">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                     <ul class="card-list" id="pro-list4">
+                         <li class="tags">html</li>
+                         <li class="tags">bootstrap</li>
+                         <li class="tags">ruby</li>
+                     </ul>
+                     </div>
+                     <div class="hov2">
+                     <button class="project-button" id="probutton5">See Project</button>
+                     </div>
+                     </div>
+                     <div class="card"  id="procard5">
+                         <div class="hov1">
+                         <h2 class="cardhead">Profesional Art Printing Data</h2>
+                         <h2 class="cardhead1" id="prohead5">Website Protfolio </h2>
+                         <p class="cardpara" id="propara5">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                         <ul class="card-list" id="pro-list5">
+                             <li class="tags">html</li>
+                             <li class="tags">bootstrap</li>
+                             <li class="tags">ruby</li>
+                         </ul>
+                         </div>
+                         <div class="hov2">
+                         <button class="project-button" id="probutton6">See Project</button>
+                         </div>
+                         </div>
+ </div>
+</div>
+</div>`);
+
+document.body.querySelector('#portfolio').appendChild(secti);
+
 const arr = [];
-// eslint-disable-next-line no-plusplus
 const newarr = [];
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i < 7; i++) {
+for (let i = 0; i < 7; i += 1) {
   const obj = {};
   newarr.push(obj);
 }
 
-// eslint-disable-next-line no-plusplus,
 for (let i = 0; i < 7; i++) {
-  // eslint-disable-next-line eqeqeq
   if (i == 0) {
-    newarr[i].name = document.querySelector('#heading3');
+    newarr[i].name = document.querySelector('#heading');
     newarr[i].description = document.querySelector('.framepara');
     newarr[i].image = image0.innerHTML;
     newarr[i].technologies = document.querySelector('#tagsul');
