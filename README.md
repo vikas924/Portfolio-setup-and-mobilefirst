@@ -30,9 +30,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio Mobile Menu] <a name="about-project"></a>
+# 📖 [Portfolio Popup Window] <a name="about-project"></a>
 
-**[Portfolio Mobile Menu]** is about setting linters and add javascript for hamburger menu.
+**[Portfolio Popup Window]** is about setting linters and add javascript for Popup window.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -161,7 +161,7 @@ GitHub Pages
 
 - [ ] **[Add animations]**
 - [ ] **[Add transitions]**
-- [ ] **[Add popup]**
+- [ ] **[Add Validation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
