@@ -94,8 +94,9 @@ function works(html) {
 for (let i = 0; i < arr.length; i += 1) {
   if (i === 0) {
     const card1 = works(`<div class="title">
-  <h2 id ="heading">My Recent Works</</h2>
+  <h2 id ="heading">My Recent Works</h2>
   <div class="empty"></div>
+  </div>
   </div>
   <div class="work-grid">
   <div class="desk-work">
@@ -104,13 +105,13 @@ for (let i = 0; i < arr.length; i += 1) {
   <h3 id="heading3" class="heading3">${arr[i].name}</h3>
   <p class="framepara">${arr[i].description}</p>
   <div id="tags">
-      <ul id="tagsul" class="tagsul">
+      <ul class="tagsul">
           <li class="tags1" id="tag1">${arr[i].technologies[0]}</li>
           <li class="tags1" id="tag2">${arr[i].technologies[1]}</li>
           <li class="tags1" id="tag3">${arr[i].technologies[2]}</li>
           <li class="tags1" id="tag4">${arr[i].technologies[3]}</li>
       </ul>
-      <button id="project-button">See Project</button>
+      <button id="project-button" class= "project-button">See Project</button>
   </div>
   </div>
 </div>
@@ -124,26 +125,36 @@ for (let i = 0; i < arr.length; i += 1) {
     <div class="hov1">
     <h2 class="cardhead">${arr[i].name}</h2>
     <p class="cardpara">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-    <ul id="tagsul" class="tagsul">
+    <ul class="tagsul">
     <li class="tags" id="tag1">${arr[i].technologies[0]}</li>
     <li class="tags" id="tag2">${arr[i].technologies[1]}</li>
     <li class="tags" id="tag3">${arr[i].technologies[2]}</li>
     </ul>
     </div>
     <div class="hov2">
-    <button class="project-button" id="probutton2">See Project</button>
+    <button class="project-button">See Project</button>
     </div>
     </div>`);
     document.body.querySelector('.cards').appendChild(cards);
   }
 }
+const ull = document.querySelectorAll('.tagsul');
+ull[0].id = 'tagsul0';
+ull[1].id = 'tagsul1';
+ull[2].id = 'tagsul2';
+ull[3].id = 'tagsul3';
+ull[4].id = 'tagsul4';
+ull[5].id = 'tagsul5';
+ull[6].id = 'tagsul6';
+
 const butto = document.querySelectorAll('.project-button');
-butto[0].id = 'probutton';
-butto[1].id = 'probutton2';
-butto[2].id = 'probutton3';
-butto[3].id = 'probutton4';
-butto[4].id = 'probutton5';
-butto[5].id = 'probutton6';
+butto[0].id = 'project-button';
+butto[1].id = 'probutton';
+butto[2].id = 'probutton2';
+butto[3].id = 'probutton3';
+butto[4].id = 'probutton4';
+butto[5].id = 'probutton5';
+butto[6].id = 'probutton6';
 
 const cardo = document.querySelectorAll('.card');
 cardo[0].id = 'procard';
@@ -173,46 +184,48 @@ const button5 = document.querySelector('#probutton5');
 const button6 = document.querySelector('#probutton6');
 function click0() {
   if (button0.id === 'project-button') {
-    div.innerHTML = `<h2 class="popupname" >${arr[0].name}</h2><ul class="popuplist">${arr[0].technologies}</ul><div class = "popbox">${
+    div.innerHTML = `<h2 class="popupname" >${arr[0].name}</h2><ul class="popuplist">${document.querySelector('#tagsul0').innerHTML}</ul><div class = "popbox">${
       arr[0].image}<div class = "popbox2"><p class = "popuppara">${arr[0].description}</p><div class = "popbox3">${link.innerHTML}${source.innerHTML}</div></div></div>`;
   }
 }
 function click1() {
   if (button1.id === 'probutton') {
-    div.innerHTML = `<h2 class="popupname">${arr[1].name}</h2><ul class="popuplist">${arr[1].technologies}</ul><div class = "popbox">${
+    div.innerHTML = `<h2 class="popupname">${arr[1].name}</h2><ul class="popuplist">${document.querySelector('#tagsul1').innerHTML}</ul><div class = "popbox">${
       arr[1].image}<div class = "popbox2"><p class = "popuppara">${arr[1].description}</p><div class = "popbox3">${link.innerHTML}${source.innerHTML}</div></div></div>`;
   }
 }
 function click2() {
   if (button2.id === 'probutton2') {
-    div.innerHTML = `<h2 class="popupname">${arr[2].name}</h2><ul class="popuplist">${arr[2].technologies}</ul><div class = "popbox">${
+    div.innerHTML = `<h2 class="popupname">${arr[2].name}</h2><ul class="popuplist">${document.querySelector('#tagsul2').innerHTML}</ul><div class = "popbox">${
       arr[2].image}<div class = "popbox2"><p class = "popuppara">${arr[2].description}</p><div class = "popbox3">${link.innerHTML}${source.innerHTML}</div></div></div>`;
   }
 }
 function click3() {
   if (button3.id === 'probutton3') {
-    div.innerHTML = `<h2 class="popupname">${arr[3].name}</h2><ul class="popuplist">${arr[3].technologies}</ul><div class = "popbox">${
+    div.innerHTML = `<h2 class="popupname">${arr[3].name}</h2><ul class="popuplist">${document.querySelector('#tagsul3').innerHTML}</ul><div class = "popbox">${
       arr[3].image}<div class = "popbox2"><p class = "popuppara">${arr[3].description}</p><div class = "popbox3">${link.innerHTML}${source.innerHTML}</div></div></div>`;
   }
 }
 function click4() {
   if (button4.id === 'probutton4') {
-    div.innerHTML = `<h2 class="popupname">${arr[4].name}</h2><ul class="popuplist">${arr[4].technologies}</ul><div class = "popbox">${
+    div.innerHTML = `<h2 class="popupname">${arr[4].name}</h2><ul class="popuplist">${document.querySelector('#tagsul4').innerHTML}</ul><div class = "popbox">${
       arr[4].image}<div class = "popbox2"><p class = "popuppara">${arr[4].description}</p><div class = "popbox3">${link.innerHTML}${source.innerHTML}</div></div></div>`;
   }
 }
 function click5() {
   if (button5.id === 'probutton5') {
-    div.innerHTML = `<h2 class="popupname">${arr[5].name}</h2><ul class="popuplist">${arr[5].technologies}</ul><div class = "popbox">${
+    div.innerHTML = `<h2 class="popupname">${arr[5].name}</h2><ul class="popuplist">${document.querySelector('#tagsul5').innerHTML}</ul><div class = "popbox">${
       arr[5].image}<div class = "popbox2"><p class = "popuppara">${arr[5].description}</p><div class = "popbox3">${link.innerHTML}${source.innerHTML}</div></div></div>`;
   }
 }
 function click6() {
   if (button6.id === 'probutton6') {
-    div.innerHTML = `<h2 class="popupname">${arr[6].name}</h2><ul class="popuplist">${arr[6].technologies}</ul><div class = "popbox">${
+    div.innerHTML = `<h2 class="popupname">${arr[6].name}</h2><ul class="popuplist">${document.querySelector('#tagsul6').innerHTML}</ul><div class = "popbox">${
       arr[6].image}<div class = "popbox2"><p class = "popuppara">${arr[6].description}</p><div class = "popbox3">${link.innerHTML}${source.innerHTML}</div></div></div>`;
   }
 }
+
+console.log(arr[0].technologies);
 
 button0.addEventListener('click', click0);
 button1.addEventListener('click', click1);
@@ -223,7 +236,7 @@ button5.addEventListener('click', click5);
 button6.addEventListener('click', click6);
 
 function tog() {
-  const togbutton = document.querySelector('#project-button');
+  const togbutton = document.querySelector('.project-button');
   const showpop = document.querySelector('#content');
   if (togbutton.style.display !== 'none') {
     showpop.style.display = 'block';
@@ -244,19 +257,10 @@ function tog() {
   }
 }
 
-const showpopup = document.querySelector('#project-button');
-showpopup.addEventListener('click', tog);
-const showpopup1 = document.querySelector('#probutton');
-showpopup1.addEventListener('click', tog);
-const showpopup2 = document.querySelector('#probutton2');
-showpopup2.addEventListener('click', tog);
-const showpopup3 = document.querySelector('#probutton3');
-showpopup3.addEventListener('click', tog);
-const showpopup4 = document.querySelector('#probutton4');
-showpopup4.addEventListener('click', tog);
-const showpopup5 = document.querySelector('#probutton5');
-showpopup5.addEventListener('click', tog);
-const showpopup6 = document.querySelector('#probutton6');
-showpopup6.addEventListener('click', tog);
+const showpopup = document.querySelectorAll('.project-button');
+for (let i = 0; i < showpopup.length; i += 1) {
+  showpopup[i].addEventListener('click', tog);
+}
+
 const closepopup = document.querySelector('#closepopup');
 closepopup.addEventListener('click', tog);
