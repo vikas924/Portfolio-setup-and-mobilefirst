@@ -225,8 +225,6 @@ function click6() {
   }
 }
 
-console.log(arr[0].technologies);
-
 button0.addEventListener('click', click0);
 button1.addEventListener('click', click1);
 button2.addEventListener('click', click2);
