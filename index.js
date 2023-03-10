@@ -262,3 +262,11 @@ for (let i = 0; i < showpopup.length; i += 1) {
 
 const closepopup = document.querySelector('#closepopup');
 closepopup.addEventListener('click', tog);
+
+const form = document.querySelector('form');
+const emailInput = document.getElementById('email');
+
+form.addEventListener('submit', (e) => {
+  const emailLowerCase = emailInput.value.trim().toLowerCase();
+  const errorDiv = document.createElement('div');
+});
