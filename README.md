@@ -30,9 +30,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio Popup Window] <a name="about-project"></a>
+# 📖 [Portfolio Validation] <a name="about-project"></a>
 
-**[Portfolio Popup Window]** is about setting linters and add javascript for Popup window.
+**[Portfolio Validation]** is about setting linters and add Validation for email.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -161,7 +161,7 @@ GitHub Pages
 
 - [ ] **[Add animations]**
 - [ ] **[Add transitions]**
-- [ ] **[Add Validation]**
+- [ ] **[Add Validations for other inputs]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
