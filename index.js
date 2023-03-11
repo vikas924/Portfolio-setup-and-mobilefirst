@@ -262,3 +262,30 @@ for (let i = 0; i < showpopup.length; i += 1) {
 
 const closepopup = document.querySelector('#closepopup');
 closepopup.addEventListener('click', tog);
+
+const form = document.querySelector('.form1');
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // prevent the form from submitting
+
+  const emailInput = form.querySelector('.email1');
+
+  const emailValue = emailInput.value.trim();
+
+  const emailval = emailValue.toLowerCase();
+
+  if (emailValue !== emailval) {
+    const errorDiv = document.createElement('div');
+    errorDiv.classList.add('error');
+    errorDiv.innerText = 'Please enter a email address in lower-case.';
+    setTimeout(() => {
+      errorDiv.style.opacity = 1;
+    }, 100);
+    form.insertBefore(errorDiv, form.lastChild);
+    setTimeout(() => {
+      errorDiv.remove();
+    }, 2000);
+    return;
+  }
+
+  form.submit(); // submit the form if all inputs are valid
+});
